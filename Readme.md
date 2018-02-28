@@ -1,7 +1,7 @@
-# Личный проект «Нёрдс»
+﻿# Личный проект «Нёрдс»
 
 * Студент: [Ivan Polienko](https://up.htmlacademy.ru/htmlcss/20/user/648317).
-* Наставник: `Неизвестно`.
+* Наставник: [Андрей Грачев](https://htmlacademy.ru/profile/id252055).
 
 ---
 
