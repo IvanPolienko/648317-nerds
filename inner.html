@@ -9,7 +9,7 @@
     <header class="main-header">
           <nav class="main-navigation">
             <a class="main-header-logo" href="index.html">
-              <img src="img/index-logo.jpg" width="36" height="20" alt="Черно-белый логотип nerds">
+              <img src="img/index-logo.jpg" width="36" height="20" alt="Логотип студии Nerds">
             </a>
             <ul class="site-navigation">
               <li><a href="info.html">Студия</a></li>
@@ -24,10 +24,24 @@
 <main class="container">
   <h1>Магазин готовых шаблонов</h1>
 
+<h2>Сортировать</h2>
   <ul class="sort">
     <li class="sort-current">По цене</li>
-    <li><button>По типу</button></li>
-    <li><button>По Названию</button></li>
+    <li><a class="sort-button" href="#">По типу</a></li>
+    <li><a class="sort-button" href="#">По Названию</a></li>
+  </ul>
+
+  <ul class="direction-sort">
+    <li>
+      <a class="direction-sort-button" href="#">
+        <img src="img/down-sort-button.jpg" width="5" height="5" alt="Down">
+      </a>
+    </li>
+    <li>
+      <a class="direction-sort-button" href="#">
+        <img src="img/up-sort-button.jpg" width="5" height="5" alt="Up">
+      </a>
+    </li>
   </ul>
 
   <section class="filters">
@@ -39,9 +53,39 @@
     <ul class="catalog-list">
      <li class="catalog-item">
        <h3>Sedona</h3>
-       <span>Информационный сайт для туристов</span>
-       <p><a href="Sedona.html">9900 руб.</a></p>
+       <p>Информационный сайт для туристов</p>
+       <a href="#">9900 руб.</a>
        <img src="img/Sedona.jpg" width="220" height="165" alt="Sedona">
+     </li>
+     <li class="catalog-item">
+       <h3>Pink app</h3>
+       <p>Продуктовый лендинг приложений для iOS и Android</p>
+       <a href="#">9900 руб.</a>
+       <img src="img/Pink-app.jpg" width="220" height="165" alt="Pink-app">
+     </li>
+     <li class="catalog-item">
+       <h3>Barbershop</h3>
+       <p>Сайт салона красоты. Для мужчин, да.</p>
+       <a href="#">9900 руб.</a>
+       <img src="img/Barbershop.jpg" width="220" height="165" alt="Barbershop">
+     </li>
+     <li class="catalog-item">
+       <h3>Mishka</h3>
+       <p>Интернет-магазин вязаных игрушек</p>
+       <a href="#">9900 руб.</a>
+       <img src="img/Mishka.jpg" width="220" height="165" alt="Mishka">
+     </li>
+     <li class="catalog-item">
+       <h3>A plus</h3>
+       <p>Лендинг курсов повышения квалификации</p>
+       <a href="#">9900 руб.</a>
+       <img src="img/A-plus.jpg" width="220" height="165" alt="A-plus">
+     </li>
+     <li class="catalog-item">
+       <h3>Кваст</h3>
+       <p>Промо-сайт производителя крафтового кваса</p>
+       <a href="#">9900 руб.</a>
+       <img src="img/Kvast.jpg" width="220" height="165" alt="Kvast">
      </li>
     </ul>
 
@@ -52,29 +96,28 @@
       <li class="pagination-item"><a href="#">Следующая</a></li>
     </ul>
   </section>
+  </main>
 
-  <h3>NERDS DESIGN STUDIO</h3>
-   <p>
-     191186, Санкт-Петербург,<br>
-     ул.Б.Конюшенная, д.19/8<br>
-     тел. +7(812)275-75-75
-   </p>
-  <button>Напишите нам</button>
- </main>
+ <footer class="main-footer">
+   <section class="map">
+     <h2>NERDS DESIGN STUDIO</h2>
+      <p>
+        191186, Санкт-Петербург,<br>
+        ул.Б.Конюшенная, д.19/8<br>
+        тел. +7(812)275-75-75
+      </p>
+     <a class="button" href="Contact-us.html">Напишите нам</a>
+     <h2 class="visually-hidden">Как до нас добраться</h2>
+     <img src="img/map.jpg" alt="Карта">
+   </section>
 
-<section class="map">
-<h2 class="visually-hidden">Как до нас добраться</h2>
-<img src="img/map.jpg" alt="Карта">
-</section>
-
-<footer class="main-footer">
-  <div class="footer-social">
-    <a class="social-button" href="https://vk.com">VK</a>
-    <a class="social-button" href="https://www.facebook.com">Facebook</a>
-    <a class="social-button" href="https://www.instagram.com">Instagram</a>
-  </div>
-  <b>Давайте дружить, это выгодно!</b>
-  <p>Скидка 10% для друзей из социальных сетей.</p>
-</footer>
-</body>
-</html>
+   <ul class="footer-social">
+     <li><a class="social-button" href="https://vk.com">VK</a></li>
+     <li><a class="social-button" href="https://www.facebook.com">Facebook</a></li>
+     <li><a class="social-button" href="https://www.instagram.com">Instagram</a></li>
+   </ul>
+   <b>Давайте дружить, это выгодно!</b>
+   <p>Скидка 10% для друзей из социальных сетей.</p>
+ </footer>
+ </body>
+ </html>
