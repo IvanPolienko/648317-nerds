@@ -41,8 +41,62 @@
   </ul>
 
   <section class="filters">
+
     <h2 class="visually-hidden">Фильтр товаров</h2>
-    <!--Здесь будет форма -->
+
+        <form action="#" id="filter-form">
+
+           <label>от
+             <input class="min-price" type="text" value="0">
+           </label>
+           <label>до
+             <input class="max-price" type="text" value="15 000">
+           </label>
+
+           <h3 class="filter-grid">Сетка:</h3>
+           <p>
+             <label>
+               <input type="radio" id="grid1" name="radio-grid" value="adapt" checked>Адаптивная
+             </label>
+           </p>
+           <p>
+             <label>
+               <input type="radio" id="grid2" name="radio-grid" value="fix">Фиксированная
+             </label>
+           </p>
+           <p>
+             <label>
+               <input type="radio" id="grid3" name="radio-grid" value="rez">Резиновая
+             </label>
+           </p>
+
+           <h3 class="filter-features">Особенности:</h3>
+           <p>
+             <label>
+               <input type="checkbox" id="checkbox1" name="checkbox-1" checked>Слайдер
+             </label>
+           </p>
+           <p>
+             <label>
+               <input type="checkbox" id="checkbox2" name="checkbox-2">Блок преимуществ
+            </label>
+          </p>
+           <p>
+             <label>
+               <input type="checkbox" id="checkbox3" name="checkbox-3" checked>Новости
+             </label>
+           </p>
+           <p>
+             <label>
+               <input type="checkbox" id="checkbox4" name="checkbox-4">Галерея
+             </label>
+           </p>
+           <p>
+             <label>
+               <input type="checkbox" id="checkbox5" name="checkbox-5">Корзина
+             </label>
+           </p>
+       </form>
   </section>
 
   <section class="catalog">
@@ -108,12 +162,34 @@
    </section>
 
    <ul class="footer-social">
-     <li><a class="social-button" href="https://vk.com">VK</a></li>
+     <li><a class="social-button" href="https://vk.com">ВКонтакте</a></li>
      <li><a class="social-button" href="https://www.facebook.com">Facebook</a></li>
      <li><a class="social-button" href="https://www.instagram.com">Instagram</a></li>
    </ul>
    <b>Давайте дружить, это выгодно!</b>
    <p>Скидка 10% для друзей из социальных сетей.</p>
  </footer>
+
+ <!--Форма "Напишите нам" -->
+ <h3>Напишите нам</h3>
+ <form action="#" method="get" class="contact-us-form">
+   <p class="name-surname">
+     <label>Ваше имя:
+     <input type="text" id="input-name" name="contact-us-name" placeholder="Имя Фамилия">
+     </label>
+   </p>
+   <p class="e-mail">
+     <label>Ваш e-mail:
+     <input type="email" id="input-e-mail" name="contact-us-e-mail" placeholder="email@example.com">
+     </label>
+   </p>
+   <p class="letter-text">
+     <label>Текст письма:
+     <textarea id="contact-us-message" name="contact-us-message" placeholder="В свободной форме" rows=10 cols=50></textarea>
+     </label>
+   </p>
+   <input type="submit" id="contact-us-submit" name="contact-us-submit" value="Отправить" class="button-contact-us-submit">
+ </form>
+
  </body>
  </html>

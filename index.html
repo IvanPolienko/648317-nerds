@@ -24,6 +24,9 @@
     </header>
 
 <main class="container">
+
+ <h1 class="visually-hidden">Дизайн-студия "Нёрдс"</h1>
+
  <section class="slider">
     <div class="slide-1">
       <b>Долго, дорого, скурпулезно.</b>
@@ -127,18 +130,40 @@
        ул.Б.Конюшенная, д.19/8<br>
        тел. +7(812)275-75-75
      </p>
-    <a class="button" href="Contact-us.html">Напишите нам</a>
+    <a class="button" href="#">Напишите нам</a>
     <h2 class="visually-hidden">Как до нас добраться</h2>
     <img src="img/map.png" width="1440" height="416" alt="Карта">
   </section>
 
   <ul class="footer-social">
-    <li><a class="social-button" href="https://vk.com">VK</a></li>
+    <li><a class="social-button" href="https://vk.com">ВКонтакте</a></li>
     <li><a class="social-button" href="https://www.facebook.com">Facebook</a></li>
     <li><a class="social-button" href="https://www.instagram.com">Instagram</a></li>
   </ul>
   <b>Давайте дружить, это выгодно!</b>
   <p>Скидка 10% для друзей из социальных сетей.</p>
 </footer>
+
+<!--Форма "Напишите нам" -->
+<h3>Напишите нам</h3>
+<form action="#" method="get" class="contact-us-form">
+  <p class="name-surname">
+    <label>Ваше имя:
+    <input type="text" id="input-name" name="contact-us-name" placeholder="Имя Фамилия">
+    </label>
+  </p>
+  <p class="e-mail">
+    <label>Ваш e-mail:
+    <input type="email" id="input-e-mail" name="contact-us-e-mail" placeholder="email@example.com">
+    </label>
+  </p>
+  <p class="letter-text">
+    <label>Текст письма:
+    <textarea id="contact-us-message" name="contact-us-message" placeholder="В свободной форме" rows=10 cols=50></textarea>
+    </label>
+  </p>
+  <input type="submit" id="contact-us-submit" name="contact-us-submit" value="Отправить" class="button-contact-us-submit">
+</form>
+
 </body>
 </html>
