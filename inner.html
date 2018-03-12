@@ -46,14 +46,25 @@
 
         <form action="#" id="filter-form">
 
-           <label>от
-             <input class="min-price" type="text" value="0">
-           </label>
-           <label>до
-             <input class="max-price" type="text" value="15 000">
-           </label>
+        <div class="filter">
+          <div class="filter-range-wrapper">
+            <div class="filter-range">
+              <div class="filter-range-scale">
+                <div class="filter-range-bar"></div>
+              </div>
+              <button class="filter-range-handle min"></button>
+              <button class="filter-range-handle max"></button>
+            </div>
+          </div>
 
-           <h3 class="filter-grid">Сетка:</h3>
+         <div class="filter-interval">
+           <label>От<input class="min-price" type="text" value="0"></label>
+           <label>До<input class="max-price" type="text" value="15 000"></label>
+         </div>
+        </div>
+
+         <fieldset>
+           <legend class="filter-grid">Сетка:</legend>
            <p>
              <label>
                <input type="radio" id="grid1" name="radio-grid" value="adapt" checked>Адаптивная
@@ -69,8 +80,10 @@
                <input type="radio" id="grid3" name="radio-grid" value="rez">Резиновая
              </label>
            </p>
+         </fieldset>
 
-           <h3 class="filter-features">Особенности:</h3>
+         <fieldset>
+           <legend class="filter-features">Особенности:</legend>
            <p>
              <label>
                <input type="checkbox" id="checkbox1" name="checkbox-1" checked>Слайдер
@@ -96,6 +109,7 @@
                <input type="checkbox" id="checkbox5" name="checkbox-5">Корзина
              </label>
            </p>
+         </fieldset>
        </form>
   </section>
 
@@ -162,9 +176,9 @@
    </section>
 
    <ul class="footer-social">
-     <li><a class="social-button" href="https://vk.com">ВКонтакте</a></li>
-     <li><a class="social-button" href="https://www.facebook.com">Facebook</a></li>
-     <li><a class="social-button" href="https://www.instagram.com">Instagram</a></li>
+     <li><a class="social-button" href="https://vk.com" aria-label="ВКонтакте"></a></li>
+     <li><a class="social-button" href="https://www.facebook.com" aria-label="Facebook"></a></li>
+     <li><a class="social-button" href="https://www.instagram.com" aria-label="Instagram"></a></li>
    </ul>
    <b>Давайте дружить, это выгодно!</b>
    <p>Скидка 10% для друзей из социальных сетей.</p>
