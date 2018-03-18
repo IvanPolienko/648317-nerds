@@ -1,0 +1,407 @@
+body {
+  margin: 0;  /*отступы*/
+  padding: 0; /*отступы*/
+
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;   /* больше всего текста размером 16px и межстрочным интервалом 24px, поэтому в body задаем эти параметры */
+  line-height: 24px;
+  color: #000000;
+  background-color: #ffffff;
+  }
+
+  a {
+    text-decoration: none;  /*ссылки без подчеркивания*/
+  }
+
+  .main-header {
+    line-height: 30px;
+    text-transform: uppercase;  /*все буквы заглавные*/
+    background-color: #eeeeee;
+  }
+
+  .site-navigation,
+  .service-list,
+  .footer-social,
+  .accuracy {
+    list-style: none; /*убираем маркеры у списка*/
+  }
+
+  .main-header a {
+    color: #000000;
+    font-weight: 700; /*жирность*/
+  }
+
+  .main-header a:hover {
+    color: #fb565a;  /*цвет ссылки при неаведении*/
+  }
+
+  .main-header a:active {
+    color: #000000;  /*цвет ссылки при нажатии*/
+    opacity:0.3;     /*прозрачность*/
+  }
+
+   /*Разметка слайдера*/
+  .slider{
+    background-color: #eeeeee;
+  }
+
+  .slider-title {
+    font-size: 55px;
+    line-height: 55px;
+  }
+
+  .service-title{
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+  }
+
+  .advantages b,
+  .orders-list {
+    text-transform: uppercase;
+  }
+
+/* Ссылки-кнопки */
+  .button,
+  .button-contact-us-submit,
+  .catalog-button {
+    font: inherit;
+    text-align: center;
+    color: #ffffff;
+    vertical-align: middle;
+    text-transform: uppercase;
+    background-color: #fb565a;
+    border: none;
+  }
+
+  .button:hover,
+  .button-contact-us-submit:hover,
+  .catalog-button:hover {
+    background-color: #e74246;
+  }
+
+  .button:focus,
+  .button:active,
+  .button-contact-us-submit:focus,
+  .button-contact-us-submit:active,
+  .catalog-button:focus,
+  .catalog-button:active
+  {
+    background-color: #d7373b;
+  }
+
+  .button-apps {
+    font: inherit;
+
+    text-align: center;
+    color: #ffffff;
+    vertical-align: middle;
+    text-transform: uppercase;
+
+    background-color: #00ca74;
+    border: none;
+  }
+
+  .button-apps:hover {
+    background-color: #00bcbc;
+  }
+
+  .button-apps:focus,
+  .button-apps:active
+  {
+    background-color: #00aa62;
+  }
+
+  .button-presentations {
+    font: inherit;
+
+    text-align: center;
+    color: #ffffff;
+    vertical-align: middle;
+    text-transform: uppercase;
+
+    background-color: #efc84a;
+    border: none;
+  }
+
+  .button-presentations:hover {
+    background-color: #eab534;
+  }
+
+  .button-presentations:focus,
+  .button-presentations:active
+  {
+    background-color: #e5a722;
+  }
+
+  .accuracy {
+    line-height: 18px;
+  }
+
+  .percent {
+    font-size: 45px;
+    line-height: 45px;
+  }
+
+  /* Прозрачность логотипа Nerds */
+  .main-header-logo {
+    opacity: 1.0; /* покой */
+  }
+
+  .main-header-logo:hover {
+    opacity: 0.8; /* наведение */
+  }
+
+  .main-header-logo:active {
+    opacity: 0.3; /* нажатие */
+  }
+
+/* Прозрачность логотипов партнеров */
+  .partners-button {
+    opacity:0.2; /* покой */
+  }
+
+  .partners-button:hover {
+    opacity: 1.0; /* наведение */
+  }
+
+  .partners-button:active {
+    opacity: 0.1; /* нажатие */
+  }
+
+/* Разметка подвала*/
+
+  .map h2 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .map p {
+    line-height: 18px;
+  }
+
+  .footer-slogan b {
+    font-size: 36px;
+    line-height: 36px;
+  }
+
+  .footer-slogan p {
+    line-height: 22px;
+  }
+
+  /* Изменение цвета иконок социальных сетей */
+    .social-button {
+      background-color: #e1e1e1; /* покой */
+    }
+
+    .social-button:hover {
+      background-color: #e74246; /* наведение */
+    }
+
+    .social-button:active {
+      background-color: #d7373b; /* нажатие */
+    }
+
+
+/*Форма "Напишите нам"*/
+  .contact-us-title,
+  .orders-slogan {
+    font-size: 45px;
+    line-height: 45px;
+  }
+
+  .field-description {
+    font-weight: 700;
+  }
+
+  .contact-us-form input[type="text"],
+  .contact-us-form input[type="email"] {
+    font: inherit;
+    font-weight: normal;
+    width: 360px;
+    height: 50px;
+    border: 2px solid #d7dcde;
+  }
+
+  .contact-us-form input:hover {
+    border-color: #b4b9bb;
+  }
+
+  .contact-us-form input:focus {
+    border-color: #000000;
+  }
+
+  .contact-us-form textarea {
+    width: 760px;
+    height: 118px;
+  }
+
+  .contact-us-form input:invalid {
+    border-color: red;   /* цвет рамки поля при вводе невалидного значения */
+  }
+
+  .visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    wight: 1px;
+    height: 1px;
+    margin: -1px;
+  }
+
+
+  /* Разметка страницы каталога */
+
+  .catalog-page {
+    margin: 0;  /*отступы*/
+    padding: 0; /*отступы*/
+
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 16px;   /* больше всего текста размером 16px и межстрочным интервалом 24px, поэтому в body задаем эти параметры */
+    line-height: 24px;
+    color: #000000;
+    background-color: #ffffff;
+    }
+
+    .catalog-page h1 {
+      font-size: 55px;
+      line-height: 55px;
+      background-color: #eeeeee;
+    }
+
+    .catalog-page h2 {
+      font-size: 18px;
+      line-height: 30px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .sort {
+      list-style: none;
+    }
+
+    .sort a {
+      color: #000000;
+      opacity: 0.3;
+    }
+
+    .sort a:hover {
+      opacity: 0.6;
+    }
+
+  .sort a:focus,
+  .sort a:active {
+    opacity: 1.0;
+  }
+
+  .sort-current {
+    color: #000000; /* задаем цвет ссылки текущей сортировки */
+    opacity: 1.0;
+  }
+
+  .filters fieldset {
+    border: none;   /* убираем обводку у блока фильтров */
+  }
+
+  .filters legend {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .filter-interval {
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+  }
+
+  .filter-interval input{
+    background-color: #eeeeee;
+    border: none;
+  }
+
+  .filter-grid {
+      list-style: none;
+      line-height: 20px;
+    }
+
+  .filter-features {
+      list-style: none;
+      line-height: 22px;
+    }
+
+  .filter-grid label,
+  .filter-grid input,
+  .filter-features label,
+  .filter-features input {
+    color: #283136;
+   }
+
+  .filter-grid label:hover,
+  .filter-grid input:hover,
+  .filter-features label:hover,
+  .filter-features input:hover {
+    color: #000000;
+   }
+
+ .filter-grid input:disabled + label,
+ .filter-features input:disabled +label {
+   color: #000000;
+   opacity: 0.3;
+  }
+
+  .catalog-list {
+    list-style: none;
+  }
+
+  .catalog-item {
+    background-color: #eeeeee;
+  }
+
+  .catalog-item:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .catalog-item h3 {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .catalog-item p {
+    line-height: 18px;
+  }
+
+  .pagination-list {
+    list-style: none;
+  }
+
+  .pagination-item a {
+    color: #000000;
+    background-color: #eeeeee;
+  }
+
+  .pagination-item a:hover {
+    background-color: #dfdfdf;
+  }
+
+  .pagination-item a:focus {
+    background-color: #d5d5d5;
+    opacity: 0.3;
+  }
+
+  .pagination-item a:active {
+    background-color: #ffffff;
+  }
+
+  .pagination-item-current a {
+    background-color: #ffffff;
+  }
+
+  .pagination-item-current a:hover,
+  .pagination-item-current a:focus,
+  .pagination-item-current a:active {
+    color: #000000;
+    background-color: #ffffff;
+  }

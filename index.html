@@ -3,47 +3,49 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
 
     <header class="main-header">
-      <a class="main-header-logo">
         <img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип студии Nerds">
-      </a>
-          <nav class="main-navigation">
+        <nav class="main-navigation">
              <ul class="site-navigation">
-              <li><a href="info.html">Студия</a></li>
+              <li class="current-page">
+                  <a href="info.html">Студия</a></li>
               <li><a href="contacts.html">Клиенты</a></li>
               <li><a href="inner.html">Магазин</a></li>
               <li><a href="catalog.html">Контакты</a></li>
             </ul>
-          </nav>
-          <div>
+        </nav>
+        <div class="cast">
             <a href="cast.html">Корзина</a>
-          </div>
+        </div>
     </header>
 
 <main class="container">
 
  <h1 class="visually-hidden">Дизайн-студия "Нёрдс"</h1>
- 
+
  <h2 class="visually-hidden">"Слайдер"</h2>
  <section class="slider">
     <div class="slide-1">
-      <b>Долго, дорого, скурпулезно.</b>
-       <p>Математически выверенный дизайн для вашего сайта или приложения.</p>
+      <b class="slider-title">Долго, дорого, скурпулезно.</b>
+       <p class="slider-text">Математически выверенный дизайн для вашего сайта или приложения.</p>
        <a class="button" href="#">Узнать больше</a>
        <img src="img/slide1.png" width="698" height="413" alt="Слайд-1">
      </div>
      <div class="slide-2">
-       <b>Любим математику как никто другой</b>
-       <p>Никакого креатива, только математические формулы для расчета идеальных пропорций</p>
+       <b class="slider-title">Любим математику как никто другой</b>
+       <p  class="slider-text">Никакого креатива, только математические формулы для расчета идеальных пропорций</p>
        <a class="button" href="#">Узнать больше</a>
        <img src="img/slide2.png" width="663" height="430" alt="Слайд-2">
      </div>
      <div class="slide-3">
-       <b>Только ночь, только хардкор</b>
-       <p>Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
+       <b class="slider-title">Только ночь, только хардкор</b>
+       <p  class="slider-text">Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
        <a class="button" href="#">Узнать больше</a>
        <img src="img/slide3.png" width="759" height="411" alt="Слайд-3">
      </div>
@@ -61,22 +63,22 @@
        <h2 class="service-title">Приложения</h2>
        <img src="img/apps.png" width="300" height="146" alt="Приложения">
        <p class="service-text">Покорите топ-10 приложений в AppStore и Google Play</p>
-       <a class="button" href="apps.html">Заказать</a>
+       <a class="button-apps" href="apps.html">Заказать</a>
      </li>
      <li class="service-item">
        <h2 class="service-title">Презентации</h2>
        <img src="img/presentations.png" width="300" height="146" alt="Презентации">
        <p class="service-text">Вы даже не подозреваете, насколько вы изумительны!</p>
-       <a class="button" href="presentations.html">Заказать</a>
+       <a class="button-presentations" href="presentations.html">Заказать</a>
      </li>
    </ul>
  </section>
 
-<div>
-  <b>Мы - маленькая, но гордая дизайн-студия из Краснодара.</b>
+<div class="orders">
+  <b class="orders-slogan">Мы - маленькая, но гордая дизайн-студия из Краснодара.</b>
   <p>Исповедуем принциаы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
 
-  <b>ВЫПОЛНЯЕМ ЗАКАЗЫ НА РАЗРАБОТКУ:</b>
+  <b class="orders-list">Выполняем заказы на разработку:</b>
   <ul>
     <li>Веб-сайтов любой сложности</li>
     <li>Мобильных приложений для iOS и Android</li>
@@ -86,25 +88,22 @@
 
 <section class="advantages">
 <img src="img/index-logo-color.png" width="360" height="208" alt="Цветной логотип nerds">
-  <b>С 2004 ГОДА ЛЮБИМ ТОЧНОСТЬ ВО ВСЕМ:</b>
-    <ul>
-      <li>
-        <span>"146"</span>
-        <sup>%</sup>
-        "Уровень самоотдачи"
-      </li>
-      <li>
-        <span>"100"</span>
-        <sup>%</sup>
-        "Соблюдение сроков"
-      </li>
-      <li>
-        <span>"50"</span>
-        <sup>%</sup>
-        "Минимальная предоплата"
-      </li>
-    </ul>
+  <b>C 2004 года любим точность во всем:</b>
+  <table>
+    <tr class="percent">
+      <td>146<sup>%</sup></td>
+      <td>100<sup>%</sup></td>
+      <td>50<sup>%</sup></td>
+    </tr>
+    <tr class="accuracy">
+      <td>Уровень самоотдачи</td>
+      <td>Соблюдение сроков</td>
+      <td>Минимальная предоплата</td>
+    </tr>
+  </table>
 </section>
+
+
 
 <section class="partners">
   <a class="partners-button" href="https://htmlacademy.ru/intensive/htmlcss">
@@ -141,26 +140,28 @@
     <li><a class="social-button" href="https://www.facebook.com" aria-label="Facebook"></a></li>
     <li><a class="social-button" href="https://www.instagram.com" aria-label="Instagram"></a></li>
   </ul>
-  <b>Давайте дружить, это выгодно!</b>
-  <p>Скидка 10% для друзей из социальных сетей.</p>
+  <div class="footer-slogan">
+    <b>Давайте дружить, это выгодно!</b>
+    <p>Скидка 10% для друзей из социальных сетей.</p>
+  </div>
 </footer>
 
 <!--Форма "Напишите нам" -->
-<h3>Напишите нам</h3>
+<h3 class="contact-us-title">Напишите нам</h3>
 <form action="#" method="get" class="contact-us-form">
   <p class="name-surname">
-    <label>Ваше имя:
+    <label> <p class="field-description">Ваше имя:</p>
     <input type="text" id="input-name" name="contact-us-name" placeholder="Имя Фамилия">
     </label>
   </p>
   <p class="e-mail">
-    <label>Ваш e-mail:
+    <label><p class="field-description">Ваш e-mail:</p>
     <input type="email" id="input-e-mail" name="contact-us-e-mail" placeholder="email@example.com">
     </label>
   </p>
   <p class="letter-text">
-    <label>Текст письма:
-    <textarea id="contact-us-message" name="contact-us-message" placeholder="В свободной форме" rows=10 cols=50></textarea>
+    <label><p class="field-description">Текст письма:</p>
+    <textarea id="contact-us-message" name="contact-us-message" placeholder="В свободной форме"></textarea>
     </label>
   </p>
   <input type="submit" id="contact-us-submit" name="contact-us-submit" value="Отправить" class="button-contact-us-submit">
