@@ -5,7 +5,7 @@ body {
   font-family: "Roboto", Arial, sans-serif;
   font-size: 16px;   /* больше всего текста размером 16px и межстрочным интервалом 24px, поэтому в body задаем эти параметры */
   line-height: 24px;
-  color: #000000;
+  color: #283136;
   background-color: #ffffff;
   }
 
@@ -28,7 +28,7 @@ body {
 
   .main-header a {
     color: #000000;
-    font-weight: 700; /*жирность*/
+    font-weight: 500; /*жирность*/
   }
 
   .main-header a:hover {
@@ -48,17 +48,21 @@ body {
   .slider-title {
     font-size: 55px;
     line-height: 55px;
+    font-weight: 500;
+    color: #000000;
   }
 
   .service-title{
     font-size: 24px;
     line-height: 30px;
     text-transform: uppercase;
+    color: #000000;
   }
 
   .advantages b,
   .orders-list {
     text-transform: uppercase;
+    color: #000000;
   }
 
 /* Ссылки-кнопки */
@@ -66,6 +70,8 @@ body {
   .button-contact-us-submit,
   .catalog-button {
     font: inherit;
+    line-height: 18px;
+    font-weight: 500;
     text-align: center;
     color: #ffffff;
     vertical-align: middle;
@@ -141,6 +147,7 @@ body {
   .percent {
     font-size: 45px;
     line-height: 45px;
+    color: #000000;
   }
 
   /* Прозрачность логотипа Nerds */
@@ -174,19 +181,23 @@ body {
   .map h2 {
     font-size: 18px;
     line-height: 30px;
+    color: #000000;
   }
 
   .map p {
     line-height: 18px;
+    color: #666666;
   }
 
   .footer-slogan b {
     font-size: 36px;
     line-height: 36px;
+    color: #000000;
   }
 
   .footer-slogan p {
     line-height: 22px;
+    color: #444444;
   }
 
   /* Изменение цвета иконок социальных сетей */
@@ -208,15 +219,20 @@ body {
   .orders-slogan {
     font-size: 45px;
     line-height: 45px;
+    font-weight: 500;
+    color: #000000;
   }
 
   .field-description {
+    line-height: 18px;
     font-weight: 700;
+    color: #000000;
   }
 
   .contact-us-form input[type="text"],
   .contact-us-form input[type="email"] {
     font: inherit;
+    line-height: 18px;
     font-weight: normal;
     width: 360px;
     height: 50px;
@@ -258,13 +274,14 @@ body {
     font-family: "Roboto", Arial, sans-serif;
     font-size: 16px;   /* больше всего текста размером 16px и межстрочным интервалом 24px, поэтому в body задаем эти параметры */
     line-height: 24px;
-    color: #000000;
+    color: #283136;
     background-color: #ffffff;
     }
 
     .catalog-page h1 {
       font-size: 55px;
       line-height: 55px;
+      color: #000000;
       background-color: #eeeeee;
     }
 
@@ -272,6 +289,7 @@ body {
       font-size: 18px;
       line-height: 30px;
       font-weight: 700;
+      color: #000000;
       text-transform: uppercase;
     }
 
@@ -307,6 +325,7 @@ body {
     line-height: 30px;
     font-weight: 700;
     text-transform: uppercase;
+    color: #000000;
   }
 
   .filter-interval {
@@ -317,6 +336,8 @@ body {
 
   .filter-interval input{
     background-color: #eeeeee;
+    font-size: 16px;
+    line-height: 22px;
     border: none;
   }
 
@@ -341,6 +362,7 @@ body {
   .filter-grid input:hover,
   .filter-features label:hover,
   .filter-features input:hover {
+    line-height: 22px;
     color: #000000;
    }
 
@@ -367,10 +389,12 @@ body {
     line-height: 30px;
     font-weight: 700;
     text-transform: uppercase;
+    color: #000000;
   }
 
   .catalog-item p {
     line-height: 18px;
+    color: #666666;
   }
 
   .pagination-list {
@@ -378,6 +402,7 @@ body {
   }
 
   .pagination-item a {
+    line-height: 18px;
     color: #000000;
     background-color: #eeeeee;
   }
