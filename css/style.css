@@ -298,6 +298,9 @@ body {
     }
 
     .sort a {
+      font-size: 14px;
+      line-height: 18px;
+      text-transform: uppercase;
       color: #000000;
       opacity: 0.3;
     }
@@ -312,6 +315,9 @@ body {
   }
 
   .sort-current {
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
     color: #000000; /* задаем цвет ссылки текущей сортировки */
     opacity: 1.0;
   }
